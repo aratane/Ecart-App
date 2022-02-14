@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eCart Delivery Boy</string>
+
+    <string name="login">Login</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="password">Password</string>
+
+
+    <string name="msg_privacy_terms">By Logging in, you agree to our Terms &amp; Conditions and Privacy Policy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+
+    <!--    Note : If you are changeing privacy policy and terms condition string then the word which you use in 'privacy_policy'
+                and 'terms_conditions' these two words should be same in 'msg_privacy_terms' string.-->
+
+    <string name="forgottext">Forgot password ?</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="logout">Logout</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="is_login">Login ?</string>
+    <string name="notifications">Notification</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="orders">Orders</string>
+    <string name="balance">Balance</string>
+    <string name="bonus">Bonus %</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="order_no">Order No</string>
+    <string name="order_date">Order Date</string>
+    <string name="status">Delivered</string>
+    <string name="order_method">Order Method</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="update">Update</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="please_click_back_again_to_exit">Please click BACK again to exit</string>
+    <string name="name_required">Name is required!</string>
+    <string name="address_required">Address is required!</string>
+    <string name="changepsw">Change password ?</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password_required">Old password required!</string>
+    <string name="new_password_required">New password required!</string>
+    <string name="confirm_password_required">Confirm password required!</string>
+    <string name="password_required">Password required!</string>
+    <string name="enter_valid_mobile_number">Enter Valid Mobile Number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="wallet_history">Wallet History</string>
+    <string name="get_direction">\u0020\u0020Get Direction\u0020\u0020</string>
+    <string name="product_detail">Order No. :\u0020</string>
+
+    <string name="items">Items Amount :</string>
+    <string name="promo_applied">PromoCode Discount :</string>
+    <string name="delivery_charge">Delivery Charge :</string>
+    <string name="wallet_balance1">Wallet Balance :</string>
+    <string name="final_total">Final Total : </string>
+    <string name="total">Total : </string>
+    <string name="tax">Tax : </string>
+    <string name="discount">Discount : </string>
+
+    <string name="item">Item</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="qty">Qty</string>
+    <string name="price">Price</string>
+    <string name="logout_msg">Are you sure, You want to logout?</string>
+    <string name="change_order_status_msg">Are you sure, You want to change order status?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_status">Update Order Status</string>
+    <string name="map_open_message">You want to open google map to get order delivery
+        direction?</string>
+    <string name="order_number">Order No. :\u0020</string>
+    <string name="order_on">Ordered\u0020on\u0020</string>
+    <string name="_name">Name\u0020:\u0020</string>
+    <string name="at">At\u0020</string>
+    <string name="delivery_by">Delivery\u0020by\u0020:\u0020</string>
+    <string name="via">Via\u0020</string>
+    <string name="tx_id">Tx ID</string>
+    <string name="tx_message">Message</string>
+    <string name="transaction_date_and_time">Date and Time</string>
+    <string name="no_internet_message">No internet connection !</string>
+    <string name="retry">Retry</string>
+    <string name="transaction">Transaction No. :\u0020</string>
+    <string name="amount_title">Amount\u0020:\u0020</string>
+    <string name="change_password_msg">You have to login again with updated credentials, if you are changin password.</string>
+    <string name="code">00</string>
+    <string name="forgot_message_hint">Enter registered mobile number</string>
+    <string name="recover_pass">Continue</string>
+    <string name="verify_message">Verify your registered number and reset your password. </string>
+    <string name="reset_password">Reset Password</string>
+    <string name="resend">Resend</string>
+    <string name="please_type_verification_code_sent_to">Please Enter OTP sent via SMS on </string>
+    <string name="otp">OTP</string>
+    <string name="verify">Verify</string>
+    <string name="reset_pass_text">Reset Your Password</string>
+    <string name="show_more">Show More</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="non_user_msg">Mobile number is not registered, Please contact to\u0020</string>
+    <string name="contact_person">\u0020contact person.</string>
+    <string name="call_to_customer">Call To Customer</string>
+    <string name="mobiletitle">Mobile\u0020:\u0020</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="withdrawal">Send Withdrawal Request</string>
+    <string name="filter">Filter</string>
+    <string name="send_withdrawal_request">Send Withdrawal Request</string>
+    <string name="send">Send</string>
+    <string name="withdrawal_amount">Withdrawal Amount</string>
+    <string name="wallet_withdrawal_request_alert">*Please note: When you send a request, Amount will deduct from wallet and If admin rejects the request, then the amount will refund in the wallet.</string>
+    <string name="message_optional">Message (Optional)</string>
+    <string name="alert_balance_limit">You can not withdraw amount more then available wallet balance!!!</string>
+    <string name="filterby">Filter By</string>
+    <string name="alert_enter_amount">Please enter amount!!!</string>
+    <string name="order_otp">Order OTP</string>
+    <string name="order_otp_confirmation">Order OTP Confirmation</string>
+    <string name="confirm">Confirm</string>
+    <string name="alert_otp">Please enter otp!!!</string>
+    <string name="can_not_update_order">Can not update order!</string>
+    <string name="otp_not_matched">Opt not matched!!</string>
+    <string name="enable_disable">Enable Or Disable</string>
+    <string name="delivery_boy_status">Delivery boy status\u0020</string>
+    <string name="enabled">Enabled\u0020</string>
+    <string name="disabled">Disabled\u0020</string>
+    <string name="successfully">successfully!</string>
+
+</resources>

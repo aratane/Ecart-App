@@ -1,0 +1,252 @@
+API URL -->> 
+        https://newekart.wrteam.in/admin-app/api/api-v2.php
+
+----------------------------------------------------------
+APIs list 
+----------------------------------------------------------
+
+1. add_category
+2. update_category
+3. delete_category
+4. get_categories
+5. add_subcategory
+6. update_subcategory
+7. delete_subcategory
+8. get_subcategories
+9. add_delivery_boy
+10.update_delivery_boy
+11.delete_delivery_boy
+12.get_delivery_boys
+13.add_products
+14.update_products
+15.delete_products
+16.get_products
+17.send_notification
+18.delete_notification
+19.get_notification
+
+------------------------------------------
+What parameters to be Passed?  See here >>
+------------------------------------------
+
+Use POST method to pass the parameters
+
+1. add_category
+    accesskey:90336
+    add_category:1
+    category_name:Beverages
+    category_subtitle:Cold Drinks, Soft Drinks, Sodas
+    image:FILE
+
+2. update_category
+    accesskey:90336
+    update_category:1
+    id:122
+    category_name:Beverages
+    category_subtitle:Cold Drinks, Soft Drinks, Sodas
+    upload_image:FILE
+
+3. delete_category
+    accesskey:90336
+    delete_category:1
+    id:122
+
+4. get_categories
+    accesskey:90336
+    get_categories:1
+    category_id:28      // {optional}
+    limit:10            // {optional}
+    offset:0            // {optional}
+    sort:id             // {optional}
+    order:ASC/DESC      // {optional}
+
+5. add_subcategory
+    accesskey:90336
+    add_subcategory:1
+    subcategory_name:baverages
+    category_subtitle:Cold Drinks, Soft Drinks, Sodas
+    main_category:46
+    upload_image:FILE
+
+6. update_subcategory
+    accesskey:90336
+    update_subcategory:1
+    id:122
+    subcategory_name:baverages
+    category_subtitle:Cold Drinks, Soft Drinks, Sodas
+    main_category: 46
+    image:FILE
+
+7. delete_subcategory
+    accesskey:90336
+    delete_subcategory:1
+    id:122
+
+8. get_subcategories
+    accesskey:90336
+    get_subcategories:1
+    category_id:28      // {optional}
+    limit:10            // {optional}
+    offset:0            // {optional}
+    sort:id             // {optional}
+    order:ASC/DESC      // {optional}
+
+9. add_delivery_boy
+    accesskey:90336
+    add_delivery_boy:1		
+    name:delivery_boy
+    mobile:9963258652
+    address:time square
+    bonus:10
+    dob:2020-09-12
+    bank_name:SBI
+    other_payment_info:description  // {optional}
+    account_number:12547896523652
+    account_name:DEMO
+    ifsc_code:254SBIfbfg
+    password:asd124
+    driving_license:FILE
+    national_identity_card:FILE 
+
+10. update_delivery_boy
+    accesskey:90336
+    update_delivery_boy:1
+    id:12
+    name:delivery_boy
+    mobile:9963258652
+    address:time square
+    bonus:10
+    dob:2020-09-12
+    bank_name:SBI
+    other_payment_info:description 
+    account_number:12547896523652
+    account_name:DEMO
+    ifsc_code:254SBIfbfg
+    password:asd124
+    status:1
+    driving_license:FILE         // {optional}
+    national_identity_card:FILE  // {optional}
+
+11. delete_delivery_boy
+    accesskey:90336
+    delete_delivery_boy:1		
+    id:302
+
+12. get_delivery_boys
+    accesskey:90336
+    get_delivery_boys:1
+    id:292           // {optional}
+    limit:10         // {optional}
+    offset:0         // {optional}
+    sort:id          // {optional}
+    order:ASC/DESC   // {optional}
+    search:value     // {optional}
+
+13. add_products
+    accesskey:90336
+    add_products:1
+    name:potato
+    category_id:31
+    subcategory_id:115
+    serve_for:Available / Sold Out
+    description:potatos
+    tax_id:4                    // {optional}
+    manufacturer:india          // {optional}
+    made_in:india               // {optional}
+    return_status:0 / 1         // {optional}
+    cancelable_status:0 / 1     // {optional}
+    till_status: received / processed / shipped           // {optional}
+    indicator:	0 - none / 1 - veg / 2 - non-veg          // {optional}
+    image:FILE          
+    other_images[]:FILE
+
+    type:packet
+    measurement:500,400
+    measurement_unit_id:4,1
+    price:175,145
+    discounted_price:60,30       // {optional}
+    serve_for:Available / Sold Out,Available / Sold Out
+    stock:992,458
+    stock_unit_id:4,1
+
+    type:loose
+    measurement:1,1
+    measurement_unit_id:1,5
+    price:100,500
+    discounted_price:20,15       // {optional}
+    serve_for:Available / Sold Out 
+    stock:997
+    stock_unit_id:1
+
+14. update_products
+    accesskey:90336
+    update_products:1
+    id:507
+    name:potato
+    category_id:31
+    subcategory_id:115
+    serve_for:Available / Sold Out
+    description:potatos
+    tax_id:4                    // {optional}
+    manufacturer:india          // {optional}
+    made_in:india               // {optional}
+    return_status:0 / 1         // {optional}
+    cancelable_status:0 / 1     // {optional}
+    till_status:received / processed / shipped          // {optional}
+    indicator:0 - none / 1 - veg / 2 - non-veg          // {optional}
+    product_variant_id:510,209
+    image:FILE          
+    other_images[]:FILE
+
+    type:packet
+    measurement:500,100
+    measurement_unit_id:4,2
+    price:75,50
+    discounted_price:10,5         // {optional}
+    serve_for:Available / Sold Out,Available / Sold Out
+    stock:992,987
+    stock_unit_id:4,2
+
+    type:loose
+    measurement:1,1
+    measurement_unit_id:1,5
+    price:100,400
+    discounted_price:20,15       // {optional}
+    serve_for:Available / Sold Out
+    stock:997
+    stock_unit_id:1
+
+15. delete_products
+    accesskey:90336
+    delete_products:1
+    product_variants_id:722
+
+16. get_products
+    accesskey:90336
+    get_products:1
+    id:468              // {optional}
+    category_id:30      // {optional}
+    subcategory_id:119  // {optional}
+    limit:10            // {optional}
+    offset:0            // {optional}
+    search:value        // {optional}
+    filter:low_stock | out_stock    // {optional}
+    sort:new / old / high / low     // {optional}
+
+17. send_notification
+    accesskey:90336
+    send_notification:1  
+    title:test
+    message:testing
+    type:default / category / product
+    type_id:32
+    image:FILE          // {optional}
+
+18. delete_notification
+    accesskey:90336
+    delete_notification:1    
+    id:915
+
+19. get_notification
+    accesskey:90336
+    get_notification:1    
